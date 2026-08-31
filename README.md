@@ -19,6 +19,8 @@ La arquitectura del sistema esta basada mediante una capa de orquestación centr
 
 * **Sintaxis**: Tokenizador tolerante a cadenas con espacios agrupadas por comillas dobles, con limpieza explícita de caracteres de control Unix/Windows (`\r`, `\n`).
 
+* **Dependencias**: se utiliza nlohmann/json dentro de incluide y dentro de src para su funcionamiento
+
 ---
 
 ## 📁 Estructura del Proyecto
