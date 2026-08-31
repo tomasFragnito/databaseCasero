@@ -1,0 +1,12 @@
+{
+    "columns": [
+        "id_rol",
+        "nombre_rol"
+    ],
+    "records": [
+        {
+            "id_rol": "1",
+            "nombre_rol": "Admin"
+        }
+    ]
+}

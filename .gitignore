@@ -1,0 +1,26 @@
+# CLion
+.idea/
+
+# CMake
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Compilados
+*.o
+*.obj
+*.exe
+*.out
+
+# Binarios
+build/
+bin/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+#json
+json.hpp

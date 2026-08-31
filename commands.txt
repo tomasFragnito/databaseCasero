@@ -1,0 +1,4 @@
+show databases
+
+select database empresa
+show tables

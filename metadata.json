@@ -1,0 +1,53 @@
+{
+    "databases": [
+        {
+            "name": "empresa",
+            "tables": [
+                {
+                    "columns": [
+                        {
+                            "constraints": [
+                                {
+                                    "type": "PRIMARY_KEY"
+                                }
+                            ],
+                            "name": "id_rol"
+                        },
+                        {
+                            "constraints": [],
+                            "name": "nombre_rol"
+                        }
+                    ],
+                    "name": "roles"
+                },
+                {
+                    "columns": [
+                        {
+                            "constraints": [
+                                {
+                                    "type": "PRIMARY_KEY"
+                                }
+                            ],
+                            "name": "id"
+                        },
+                        {
+                            "constraints": [],
+                            "name": "nombre"
+                        },
+                        {
+                            "constraints": [
+                                {
+                                    "refColumn": "id_rol",
+                                    "refTable": "roles",
+                                    "type": "FOREIGN_KEY"
+                                }
+                            ],
+                            "name": "id_rol"
+                        }
+                    ],
+                    "name": "usuarios"
+                }
+            ]
+        }
+    ]
+}

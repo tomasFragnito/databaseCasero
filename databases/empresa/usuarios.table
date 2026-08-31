@@ -1,0 +1,14 @@
+{
+    "columns": [
+        "id",
+        "nombre",
+        "id_rol"
+    ],
+    "records": [
+        {
+            "id": "100",
+            "id_rol": "1",
+            "nombre": "Ana Maria"
+        }
+    ]
+}
