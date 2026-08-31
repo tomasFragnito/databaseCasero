@@ -1,3 +1,41 @@
+create database empresa
+select database empresa
+
+create table roles
+select table roles
+insert column id_rol
+insert column nombre_rol
+alter table add constraint id_rol PRIMARY_KEY
+
+create table usuarios
+select table usuarios
+insert column id
+insert column nombre
+insert column id_rol
+alter table add constraint id PRIMARY_KEY
+alter table add constraint id_rol FOREIGN_KEY roles id_rol
+
+select table roles
+insert into ( id_rol, nombre_rol ) values ( 1, "Admin" )
+
+select table usuarios
+insert into ( id, nombre, id_rol ) values ( 100, "Ana", 1 )
+
+select *
+select where nombre = "Ana"
+select * order by id desc
+
+update set nombre = "Ana Maria" where id = 100
+
+show databases
+
+select database empresa
+show tables
+
+delete from id = 100
+drop table usuarios
+drop database empresa
+
 show databases
 
 select database empresa
